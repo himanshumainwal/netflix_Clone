@@ -38,7 +38,6 @@ const featuresData = [
   },
 ];
 
-// Create a Feature component to represent each section
 const Feature = ({ heading, description, image, video, reverse }) => {
   return (
     <section className={`feachers ${reverse ? 'feachers-2' : ''}`}>
@@ -55,7 +54,6 @@ const Feature = ({ heading, description, image, video, reverse }) => {
   );
 };
 
-// Main Features component that renders all features
 const Features = () => {
   return (
     <div>

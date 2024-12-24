@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <p>
-        Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a>
+        Questions? Call <a href="#">000-800-919-1694</a>
       </p>
       <div className="grid">
         <a href="#" >FAQ</a>

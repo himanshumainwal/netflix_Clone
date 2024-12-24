@@ -12,7 +12,7 @@ function Navbar() {
           <img src={down_icon} alt="Down Arrow" width={"8px"} />
         </button>
         <button className="sign-btn btn">
-          <a href="https://www.netflix.com/in/login">Sign In</a>
+          <a href="#">Sign In</a>
         </button>
       </div>
     </nav>
