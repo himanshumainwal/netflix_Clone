@@ -8,23 +8,23 @@ const Footer = () => {
         Questions? Call <a href="tel:000-800-919-1694">000-800-919-1694</a>
       </p>
       <div className="grid">
-        <a href="https://help.netflix.com/en/node/412" target='_blank'>FAQ</a>
-        <a href="https://help.netflix.com/en/" target='_blank'>Help Centre</a>
-        <a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount" target='_blank'>
+        <a href="#" >FAQ</a>
+        <a href="#" >Help Centre</a>
+        <a href="#" >
           Account
         </a>
-        <a href="https://media.netflix.com/en/" target='_blank'>Media Centre</a>
-        <a href="https://ir.netflix.net/ir-overview/profile/default.aspx" target='_blank'>Investor Relations</a>
-        <a href="https://jobs.netflix.com/" target='_blank'>Jobs</a>
-        <a href="https://devices.netflix.com/en/" target='_blank'>Ways to Watch</a>
-        <a href="https://help.netflix.com/legal/termsofuse" target='_blank'>Terms of Use</a>
-        <a href="https://help.netflix.com/legal/privacy" target='_blank'>Privacy</a>
-        <a href="https://www.netflix.com/in/#" target='_blank'>Cookie Preferences</a>
-        <a href="https://help.netflix.com/legal/corpinfo" target='_blank'>Corporate Information</a>
-        <a href="https://help.netflix.com/en/contactus" target='_blank'>Contact Us</a>
-        <a href="https://fast.com/" target='_blank'>Speed Test</a>
-        <a href="https://help.netflix.com/legal/notices" target='_blank'>Legal Notices</a>
-        <a href="https://www.netflix.com/in/browse/genre/839338" target='_blank'>Only on Netflix</a>
+        <a href="#" >Media Centre</a>
+        <a href="#" >Investor Relations</a>
+        <a href="#" >Jobs</a>
+        <a href="#" >Ways to Watch</a>
+        <a href="#" >Terms of Use</a>
+        <a href="#" >Privacy</a>
+        <a href="#" >Cookie Preferences</a>
+        <a href="#" >Corporate Information</a>
+        <a href="#" >Contact Us</a>
+        <a href="#" >Speed Test</a>
+        <a href="#" >Legal Notices</a>
+        <a href="#" >Only on Netflix</a>
       </div>
       <button className="eng-btn">
         English
