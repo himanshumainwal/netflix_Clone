@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { FaPlus } from "react-icons/fa";
+import { ImCross } from "react-icons/im";
 
 const FAQSection = () => {
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
@@ -46,9 +48,8 @@ const FAQSection = () => {
               onClick={() => toggleFaqDisplay(index)}
             >
               <h2>{faq.question}</h2>
-              <i
-                className={`fa-solid ${openFaqIndex === index ? 'fa-xmark' : 'fa-plus'}`}
-              ></i>
+              {openFaqIndex === index ? <ImCross className='cross' /> : <FaPlus className='plus' />}
+
             </div>
             {openFaqIndex === index && (
               <h2 className="faq-ans">{faq.answer}</h2>
